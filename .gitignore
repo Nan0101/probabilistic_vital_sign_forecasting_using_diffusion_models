@@ -1,0 +1,32 @@
+# Training data (large files, not tracked in git)
+training_setA/
+training_setB/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Model checkpoints (if saved locally)
+*.pt
+*.pth
+*.ckpt
